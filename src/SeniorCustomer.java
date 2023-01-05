@@ -1,6 +1,6 @@
 public class SeniorCustomer extends Customer
 {
-	static double discount = 0.20;
+	final static double discount = 0.20;
 	
 	double calculateBill(){
 		amount = amount - (amount * discount);
